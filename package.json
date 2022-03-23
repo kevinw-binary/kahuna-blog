@@ -1,0 +1,65 @@
+{
+    "name": "genki",
+    "demo": "https://genki.fueko.net",
+    "version": "1.1.5",
+    "engines": {
+        "ghost-api": "v4"
+    },
+    "author": {
+        "name": "fueko",
+        "email": "hello@fueko.net",
+        "url": "https://fueko.net"
+    },
+    "keywords": [
+        "ghost-theme"
+    ],
+    "config": {
+        "posts_per_page": 8,
+        "card_assets": {
+            "exclude": ["bookmark", "gallery", "blockquote"]
+        },
+        "image_sizes": {
+            "m": {
+                "width": 400
+            },
+            "l": {
+                "width": 800
+            },
+            "xl": {
+                "width": 1600
+            }
+        },
+        "custom": {
+            "color_scheme": {
+                "type": "select",
+                "options": ["Light", "Dark", "Sepia", "Auto: Light/Dark", "Auto: Sepia/Dark"],
+                "default": "Light"
+            },
+            "search_api_key": {
+                "type": "text"
+            },
+            "colored_buttons": {
+                "type": "boolean",
+                "default": false
+            },
+            "publication_cover_only_on_homepage": {
+                "type": "boolean",
+                "default": false
+            },
+            "contact_form_endpoint": {
+                "type": "text"
+            },
+            "footer_copyright": {
+                "type": "text"
+            },
+            "hero_title_text": {
+                "type": "text",
+                "group": "homepage"
+            },
+            "disqus_shortname": {
+                "type": "text",
+                "group": "post"
+            }
+        }
+    }
+}

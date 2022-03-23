@@ -1,0 +1,36 @@
+<footer class="footer-section global-footer{{#is "index,post,tag,author"}}{{#if @member}} is-access{{/if}}{{/is}}">
+	<div class="footer-wrap">
+		<div class="footer-logo">
+			{{#if @site.logo}}
+			<a href="{{@site.url}}" class="is-image"><img src="{{@site.logo}}" alt="{{@site.title}}"></a>
+			{{else}}
+			<a href="{{@site.url}}" class="is-title">{{@site.title}}</a>
+			{{/if}}
+		</div>
+		<div class="footer-nav">
+			<div class="footer-nav-column is-social">
+				<small>{{t "Social"}}</small>
+				<ul>
+					{{#if @site.facebook}}
+					<li><a href="{{facebook_url}}">{{>icons/social/facebook}}Facebook</a></li>
+					{{/if}}
+					{{#if @site.twitter}}
+					<li><a href="{{twitter_url}}">{{>icons/social/twitter}}Twitter</a></li>
+					{{/if}}
+					{{>footer_icons}}
+				</ul>
+			</div>
+			{{#if @site.secondary_navigation}}
+			{{navigation type="secondary"}}
+			{{/if}}
+		</div>
+	</div>
+	<div class="footer-copyright">
+		<a href="{{@site.url}}">{{@site.title}}</a> &copy; {{date format="YYYY"}} —
+		{{#if @custom.footer_copyright}}
+		{{{@custom.footer_copyright}}}
+		{{else}}
+		{{{t "All Right Reserved. Published with {ghost-link} & {theme-name}." ghost-link="<a href=\"https://ghost.org\" target=\"_blank\" rel=\"noopener noreferrer\">Ghost</a>" theme-name="<a href=\"https://fueko.net\" target=\"_blank\" rel=\"noopener noreferrer\">Genki</a>"}}}
+		{{/if}}
+	</div>
+</footer>
