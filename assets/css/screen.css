@@ -259,7 +259,7 @@ body {
 }
 
 body {
-   font-family: var(--font-family-one);
+   font-family: 'Nunito Sans' serif;
    font-size: 20px;
    font-weight: var(--font-weight-one-regular);
    line-height: 1.5;
@@ -4744,7 +4744,7 @@ small.global-question a:hover {
 }
 
 .custom-archive-item.bottom h2 {
-   font-family: var(--font-family-one);
+   font-family: 'Nunito Sans' serif;
    font-size: 16px;
    font-weight: var(--font-weight-one-semi-bold);
 }
