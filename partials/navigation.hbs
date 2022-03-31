@@ -14,7 +14,7 @@
 {{#foreach navigation limit="3"}}
 {{#if @first}}
 <div class="footer-nav-column">
-	<small class="hide">{{t "About us"}}</small>
+	<small class="hide-strict">{{t "About us"}}</small>
 	<ul>
 		{{/if}}
 		<li><a href="{{url absolute="true"}}">{{label}}</a></li>
@@ -27,7 +27,7 @@
 {{#foreach navigation limit="3" from="4"}}
 {{#if @first}}
 <div class="footer-nav-column">
-	<small class="hide">{{t "Column 2"}}</small>
+	<small class="hide-strict">{{t "Column 2"}}</small>
 	<ul>
 		{{/if}}
 		<li><a href="{{url absolute="true"}}">{{label}}</a></li>
