@@ -1,8 +1,18 @@
 <div class="loop-section">
-	<div class="kahuna-team">
-		<h2 class="heading-kahuna">Meet the Kahuna team</h2>
-	</div>
+	
 	<div class="loop-wrap">
+		<div class="kahuna-team">
+			<h2 class="heading-kahuna">Meet the Kahuna team</h2>
+		</div>
+		{{#get "posts" filter="tag:team"}}
+			{{#foreach posts}}
+				{{>item show_tags=true}}
+			{{/foreach}}
+		{{/get}}
+
+		<div class="kahuna-team">
+			<h2 class="heading-kahuna">Blogs</h2>
+		</div>
 		{{#get "posts" filter="tag:team"}}
 			{{#foreach posts}}
 				{{>item show_tags=true}}
