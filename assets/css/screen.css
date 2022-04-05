@@ -1435,7 +1435,7 @@ small.global-question a:hover {
 .hero-section {
    width: 100%;
    max-width: var(--max-width-cards-wrap);
-   margin: 3vh auto 11vh;
+   margin: 0 auto;
 }
 
 .hero-wrap {
@@ -1507,7 +1507,7 @@ small.global-question a:hover {
 .loop-section {
    width: 100%;
    max-width: var(--max-width-cards-wrap);
-   margin: 4vh auto 3vh;
+   margin: 0 auto;
    padding-bottom: 2vh;
 }
 
@@ -4336,7 +4336,7 @@ small.global-question a:hover {
 .footer-section {
    width: 100%;
    max-width: var(--max-width-cards-wrap);
-   margin: 8vh auto 0;
+   margin: 20px auto;
 }
 
 .footer-section.is-access {
