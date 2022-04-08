@@ -1081,8 +1081,8 @@ small.global-question a:hover {
 }
 
 .header-logo .is-image img {
-   width: auto;
-   height: var(--height-logo-header);
+   width: 200px;
+   height: auto;
 }
 
 .header-logo .is-title {
