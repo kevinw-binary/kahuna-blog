@@ -4369,8 +4369,8 @@ small.global-question a:hover {
 }
 
 .footer-logo .is-image img {
-   width: auto;
-   height: var(--height-logo-footer);
+   width: 200px;
+   height: auto;
 }
 
 /* Navigation
