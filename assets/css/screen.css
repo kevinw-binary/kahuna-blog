@@ -1415,7 +1415,7 @@ small.global-question a:hover {
 
 @media (max-width:480px) {
    .header-logo .is-image img {
-      height: var(--height-logo-mobile);
+      height: auto
    }
 
    .header-checkbox:checked ~ nav {
@@ -4467,7 +4467,8 @@ small.global-question a:hover {
 
 @media (max-width:480px) {
    .footer-logo .is-image img {
-      height: var(--height-logo-mobile);
+      height: auto;
+      width: 200px;
    }
 
    .footer-nav-column {
