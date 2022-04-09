@@ -3,7 +3,7 @@
 		<h2 class="heading-kahuna text-center">TO SVALBARD WITH KAHUNA</h2>
 	</div>
 	<div class="loop-wrap">
-		{{#get "posts" filter="tag:blog" order="desc"}}
+		{{#get "posts" filter="tag:blog" order="asc"}}
 			{{#foreach posts}}
 				{{>item show_tags=true}}
 			{{/foreach}}
