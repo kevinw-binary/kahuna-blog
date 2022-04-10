@@ -1308,6 +1308,34 @@ small.global-question a:hover {
    list-style: none;
 }
 
+a.deriv-logo {
+   display: block;
+   position: relative;
+   top: -40px;
+   right: 20px;
+}
+
+a.deriv-logo img {
+   width: 130px;
+   float: right;
+}
+
+@media (max-width:767px) {
+   .header-logo .is-image img {
+      width: 150px;
+   }
+  .header-section {
+      height: 85px !important;
+   }
+   a.deriv-logo {
+      top: -30px;
+   }
+   
+   a.deriv-logo img {
+      width: 100px !important;
+   }
+}
+
 /* RWD — Header
    –––––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media (max-width:1024px) {
